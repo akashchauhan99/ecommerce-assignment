@@ -8,15 +8,21 @@ It is an assignment which is similar to an E-commerce Application. In which, I c
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [API Endpoints](#api-endpoints)
-5. [Advanced Features](#advanced-features)
-6. [Testing](#testing)
-7. [Deployment](#deployment)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Project Overview
 
+```bash
 It is an assignment which is similar to an E-commerce Application. In which, I covered These functionalities:- product management, user accounts, and order processing.
+
+This project is based on monolithic architecture. In which we have created api for auth, user, product, and order
+In a monolithic architecture:
+
+1. Simplicity: It is easier to develop, deploy, and manage a single application rather than multiple microservices.
+2. Development Speed: Development can be faster since you do not have to deal with inter-service communication complexities.
+3. Debugging: Debugging is simpler as the entire application runs in a single process.
+4. Testing: Easier to write comprehensive end-to-end tests as everything is within a single codebase.
+5. Deployment: Deployment is simpler as you deploy the entire application at once.
+```
 
 ## Installation
 
@@ -55,5 +61,3 @@ git clone https://github.com/akashchauhan99/ecommerce-assignment
 11. /order/order-history
 12. /order/update-order
 ```
-
-## Advanced Features
